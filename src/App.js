@@ -67,12 +67,12 @@ const App = () => (
       </div>
     </div>
 
-    <div className="h-full flex-1 bg-white flex items-center justify-start lg:pt-32 lg:pl-32 px-8">
+    <div className="h-full flex-1 bg-white flex items-center justify-center lg:justify-start lg:pt-32 lg:pl-32 px-8">
       <form
         onSubmit={(event) => {
           event.preventDefault();
         }}
-        className="h-full w-full max-w-md flex justify-center sm:justify-start flex-col"
+        className="h-full w-full max-w-md flex justify-center lg:justify-start flex-col"
       >
         <h1 className="text-2xl font-bold">Payment Details</h1>
 
