@@ -1,2 +1,1 @@
-# checkout
-Checkout page design
+# Checkout
