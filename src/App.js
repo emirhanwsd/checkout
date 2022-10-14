@@ -72,7 +72,7 @@ const App = () => (
         onSubmit={(event) => {
           event.preventDefault();
         }}
-        className="h-full w-full max-w-md flex justify-center lg:justify-start flex-col"
+        className="h-full w-full lg:max-w-md flex justify-center lg:justify-start flex-col"
       >
         <h1 className="text-2xl font-bold">Payment Details</h1>
 
@@ -151,7 +151,7 @@ const App = () => (
           Change Payment Method
         </button>
 
-        <div className="mt-8 p-4 border rounded-lg flex flex-col gap-y-2 font-medium text-sm text-center">
+        <div className="hidden lg:flex mt-8 p-4 border rounded-lg flex-col gap-y-2 font-medium text-sm text-center">
           <p>
             This order process is conducted by our online reseller & Merchant of
             Record, Brand.com, who also handle order realted inquiries and
